@@ -98,3 +98,9 @@
 - **Protection des routes avec Middleware** : Utilisez Middleware pour sécuriser vos routes et garantir que seuls les utilisateurs authentifiés accèdent à certaines sections de votre application.
 
 - **Gestion de l'État des Formulaires et des Erreurs avec React** : Utilisez les hooks `useFormStatus` et `useFormState` pour gérer les états en attente et les erreurs de formulaire, améliorant l'interactivité et la réactivité de vos formulaires.
+
+### Ajout de métadonnées
+
+- **Ajout d'Images Open Graph et de Favicons** : Apprenez à enrichir vos pages avec des images Open Graph et des favicons pour améliorer leur esthétique et reconnaissance dans les onglets de navigateur et lors des partages.
+
+- **Utilisation de l'API de Métadonnées de Next.js** : Intégrez des métadonnées dynamiques ou statiques facilement dans votre application Next.js à l'aide de l'API de métadonnées, permettant une gestion centralisée et efficace de l'information SEO.
