@@ -7,7 +7,7 @@
 
 - **Installation de Next.js** : Vous pouvez installer Next.js facilement en utilisant `create-next-app`, qui configure un projet Next.js prêt à l'emploi.
 
-### Création d'une Application de Base
+### Création d'une application de base
 
 - **Création d'une application de base** : Utilisez `create-next-app` pour créer rapidement une application Next.js prête à l'emploi.
 
@@ -15,13 +15,13 @@
 
 - **Navigation entre les pages** : Utilisez les composants `Link` de Next.js pour créer une navigation fluide entre les différentes pages de votre application.
 
-### Navigation Dynamique
+### Navigation dynamique
 
 - **Navigation dynamique** : Apprenez à gérer la navigation dynamique en utilisant les paramètres d'URL pour passer des données entre les pages.
 
 - **Utilisation du hook useRouter** : Utilisez le hook `useRouter` pour accéder aux informations de l'URL et réagir en conséquence dans vos composants.
 
-### Rendu Côté Serveur
+### Rendu côté serveur
 
 - **Rendu côté serveur** : Découvrez comment Next.js facilite le rendu côté serveur pour améliorer les performances et l'optimisation du référencement.
 
@@ -29,7 +29,7 @@
 
 - **Gestion des erreurs** : Apprenez à gérer les erreurs de manière efficace avec la fonction `getServerSideProps`.
 
-### Génération de Pages Statiques
+### Génération de pages statiques
 
 - **Génération de pages statiques** : Explorez la génération de pages statiques avec Next.js pour des performances optimales et une meilleure expérience utilisateur.
 
@@ -37,7 +37,7 @@
 
 - **Pré-rendu des pages** : Apprenez à pré-rendre des pages avec des données dynamiques en utilisant `getStaticProps` et `getStaticPaths`.
 
-### Préchargement des Pages
+### Préchargement des pages
 
 - **Préchargement des pages** : Découvrez comment Next.js vous permet de précharger les pages pour améliorer la vitesse de chargement et l'expérience utilisateur.
 
@@ -45,13 +45,13 @@
 
 - **Optimisation du préchargement des pages** : Explorez des stratégies adaptées à chaque cas d'utilisation pour optimiser le préchargement des pages.
 
-### Gestion des Données
+### Gestion des données
 
 - **Gestion des données** : Apprenez à gérer les données dans Next.js en utilisant différentes méthodes comme `getServerSideProps`, `getStaticProps` et `useEffect`.
 
 - **Choix de la méthode appropriée** : Sélectionnez la méthode de gestion des données appropriée en fonction des besoins de votre application et des performances requises.
 
-### Optimisation des Performances
+### Optimisation des performances
 
 - **Optimisation des performances** : Explorez différentes techniques pour optimiser les performances dans Next.js, telles que la mise en cache, le code splitting et la compression.
 
@@ -59,7 +59,7 @@
 
 - **Mise en œuvre de bonnes pratiques** : Mettez en œuvre des bonnes pratiques pour garantir des performances optimales dans vos applications Next.js.
 
-### Mutations des Données
+### Mutations des données
 
 - **Mutation des données** : Apprenez à muter des données dans Next.js en utilisant React Server Actions pour créer, mettre à jour et supprimer des données.
 
@@ -75,10 +75,18 @@
 
 - **Intégration avec le cache de Next.js** : Les actions serveur sont intégrées de manière approfondie avec le cache de Next.js, ce qui vous permet de revalider le cache associé aux mutations et d'assurer une performance optimale.
 
-### Gestion des Erreurs
+### Gestion des erreurs
 
-- **Gestion des erreurs dans les Actions Serveur** : Intégrez des blocs try/catch dans vos actions serveur pour gérer les erreurs de manière élégante lors de la création, mise à jour, et suppression de données.
+- **Gestion des erreurs dans les actions serveur** : intégrez des blocs try/catch dans vos actions serveur pour gérer les erreurs de manière élégante lors de la création, mise à jour, et suppression de données.
 
 - **Fichier `error.tsx` pour la gestion globale des erreurs** : Utilisez `error.tsx` pour définir une limite d'erreur pour vos segments de route, permettant d'afficher une interface de secours lors des erreurs inattendues.
 
 - **Gestion des erreurs 404 avec la fonction `notFound`** : Employez `notFound` pour gérer les erreurs 404 de manière spécifique quand une ressource n'existe pas, en affichant une page d'erreur personnalisée.
+
+### Amélioration de l'accessibilité
+
+- **Gestion des erreurs de formulaires avec `useFormState`**
+
+- **Plugin ESLint pour l'accessibilité** : Intégrez `eslint-plugin-jsx-a11y` dans Next.js pour aider à identifier les problèmes d'accessibilité, comme les images sans texte alternatif et l'utilisation incorrecte des attributs `aria-*` et `role`.
+
+- **Pratiques d'zaccessibilité dans les formulaires** : discussion sur l'utilisation de HTML sémantique, l'importance de l'étiquetage, et le maintien des contours de focus pour une meilleure navigation et compréhension des formulaires par les utilisateurs de technologies d'assistance.
