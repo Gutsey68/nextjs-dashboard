@@ -90,3 +90,11 @@
 - **Plugin ESLint pour l'accessibilité** : Intégrez `eslint-plugin-jsx-a11y` dans Next.js pour aider à identifier les problèmes d'accessibilité, comme les images sans texte alternatif et l'utilisation incorrecte des attributs `aria-*` et `role`.
 
 - **Pratiques d'zaccessibilité dans les formulaires** : discussion sur l'utilisation de HTML sémantique, l'importance de l'étiquetage, et le maintien des contours de focus pour une meilleure navigation et compréhension des formulaires par les utilisateurs de technologies d'assistance.
+
+### Authentification
+
+- **Implémentation avec NextAuth.js** :intégrer NextAuth.js pour gérer l'authentification dans vos applications Next.js, simplifiant la gestion des sessions et des connexions/déconnexions.
+
+- **Protection des routes avec Middleware** : Utilisez Middleware pour sécuriser vos routes et garantir que seuls les utilisateurs authentifiés accèdent à certaines sections de votre application.
+
+- **Gestion de l'État des Formulaires et des Erreurs avec React** : Utilisez les hooks `useFormStatus` et `useFormState` pour gérer les états en attente et les erreurs de formulaire, améliorant l'interactivité et la réactivité de vos formulaires.
